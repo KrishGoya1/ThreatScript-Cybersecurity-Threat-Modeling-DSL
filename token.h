@@ -54,7 +54,7 @@ namespace TokenDefinitions {
     const regex ASSIGNMENT_OP_RE("^=");
 
     // Delimiters (parentheses, semicolons, etc.)
-    const regex DELIMITER_RE("^[\\(\\)\\;]");
+    const regex DELIMITER_RE("^[\\(\\)\\;\\,]");
 
     // Keyword definitions (optional in your case)
     const regex KEYWORD_RE("^(if|else|while)");
